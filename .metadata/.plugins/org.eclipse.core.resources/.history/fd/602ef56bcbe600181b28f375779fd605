@@ -1,0 +1,13 @@
+package com.satwik;
+
+public class PathPages {
+	
+	static String url="https://www.pluralsight.com/paths/java";
+	static String title="Java | Pluralsight";
+	public void goTo() {
+	
+		Browser.goTo(url);
+	}
+}
+
+

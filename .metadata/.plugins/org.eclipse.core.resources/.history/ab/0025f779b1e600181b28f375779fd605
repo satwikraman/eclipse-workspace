@@ -1,0 +1,17 @@
+package com.satwik;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+@SuppressWarnings("deprecation")
+public class UnitTest {
+
+	
+	@Test
+	public void canGoToHomePage() {
+		Pages.homePage().goTo();
+		Assert.assertTrue(Pages.homePage().isAt());
+	}
+
+}

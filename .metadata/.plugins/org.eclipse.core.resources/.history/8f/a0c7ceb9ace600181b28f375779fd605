@@ -1,0 +1,16 @@
+package com.satwik;
+
+public class Homepage {
+
+	static String url="https://www.pluralsight.com";
+	static String title="Pluralsight";
+	public void goTo() {
+	
+		Browser.goTo(url);
+	}
+
+	public boolean isAt() {
+		Browser.title().equals(title);
+	}
+
+}
