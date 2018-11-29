@@ -1,7 +1,5 @@
 package com.satwik;
 
-import org.openqa.selenium.By;
-
 public class PathPages {
 	
 	static String url="https://www.pluralsight.com/paths ";
@@ -10,9 +8,13 @@ public class PathPages {
 	
 		Browser.goTo(url);
 	}
-	public void goToJavaPath() {
-		Browser.driver.findElement(By.xpath("//div[@id='pathContent']/div[88]/a/div/div[2]")).click();
-		
+	
+	public PathPage getPathpage(String page) {
+		switch (page) {
+		case "Java":
+			return Pages.javaPathPage();
+		}
+		return null;
 	}
 	public boolean isAt() {
 		return Browser.title().equals(title);

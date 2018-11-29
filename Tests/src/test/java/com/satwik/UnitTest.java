@@ -2,6 +2,7 @@ package com.satwik;
 
 import org.junit.Test;
 import org.junit.After;
+import org.junit.AfterClass;
 
 import junit.framework.Assert;
 
@@ -18,11 +19,11 @@ public class UnitTest {
 	@Test
 	public void canGoToJavaPathPage() {
 		Pages.pathPages().goTo();
-		Pages.pathPages().goToJavaPath();
-		Assert.assertTrue(Pages.pathPages().isAt());
+		PathPage pathPage=Pages.pathPages().getPathpage("Java");
+		Assert.assertTrue(pathPage.isAtPathPage("Java"));
 	}
-	@After
-	public void cleanup() {
+	@AfterClass
+	public static void cleanup() {
 		Browser.close();
 	}
 }
