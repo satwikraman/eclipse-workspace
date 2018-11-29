@@ -30,9 +30,10 @@ public class Goibibo {
 		WebElement to= driver.findElement(By.id("gosuggest_inputDest"));
 		WebElement swap=driver.findElement(By.cssSelector(".icon-swap"));
 		from.sendKeys("Hyderabad");
+		from.submit();
 		//Select s= 
 		to.sendKeys("Delhi");
-		//to.submit();
+		to.submit();
 		swap.click();
 	
 }

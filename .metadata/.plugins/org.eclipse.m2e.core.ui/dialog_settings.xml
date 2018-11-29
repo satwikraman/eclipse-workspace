@@ -2,11 +2,15 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="SatwikJson"/>
+			<item value="com.venky"/>
 			<item value="com.satwik"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Json"/>
+			<item value="venkatesh"/>
 			<item value="Tests"/>
 			<item value="TestFramework"/>
 			<item value="selenium"/>

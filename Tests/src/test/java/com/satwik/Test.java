@@ -9,7 +9,7 @@ public class Test {
 		String s5=new String();
 		String s4=String.join(":",s,s2,s3);
 		System.out.println(s5.isEmpty());
-		System.out.println(s.isEmpty());
+		System.out.println(s4.isEmpty());
 		
 	}
 

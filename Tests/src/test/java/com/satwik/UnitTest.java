@@ -1,7 +1,6 @@
 package com.satwik;
 
 import org.junit.Test;
-import org.junit.After;
 import org.junit.AfterClass;
 
 import junit.framework.Assert;
