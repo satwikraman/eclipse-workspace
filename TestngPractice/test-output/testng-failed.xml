@@ -5,8 +5,7 @@
     <classes>
       <class name="practice.DataDriven">
         <methods>
-          <include name="closeApp"/>
-          <include name="adminLogin" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="configProperties"/>
         </methods>
       </class> <!-- practice.DataDriven -->
     </classes>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Training\Downloads\WebApiAutomation.zip"/>
+		<item value="C:\Users\Training\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\WebApiAutomation"/>
+		<item value="C:\Users\Training\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All"/>
+		<item value="C:\Users\Training\Desktop\Satwik\WebApiAutomation"/>
 		<item value="C:\Users\Training\eclipse-workspace\venkatesh"/>
 		<item value="C:\Users\Training\eclipse-workspace\SatwikJson"/>
 		<item value="C:\Users\Training\Downloads\JSONSimpleExamples"/>
@@ -13,6 +17,10 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
 		<item value="381" key="DIALOG_X_ORIGIN"/>

@@ -1,5 +1,7 @@
 package practice;
 
+import java.io.InputStream;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -26,6 +28,7 @@ public class Sample3 {
 		driver.get("https://www.google.co.in/");
 		String pageTitle = driver.getTitle();
 		Assert.assertEquals(pageTitle, "Google");
+		
 	}
 
 	@Test(priority = 3)

@@ -15,7 +15,7 @@ public class Validations extends ResponseData {
 		FileReader reader = new FileReader("C:/Users/Training/eclipse-workspace/Json/src/main/java/cars.json");
         Object obj = jsonParser.parse(reader);
         cars = (JSONArray) obj;
-        //System.out.println( Q1("Tesla","black"));  
+        System.out.println( Q1("Tesla","black"));  
         Q2("withoutDis");
 	}
 	

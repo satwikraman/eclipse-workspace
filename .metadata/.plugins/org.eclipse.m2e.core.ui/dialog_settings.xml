@@ -2,18 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="SatwikJson"/>
-			<item value="com.venky"/>
-			<item value="com.satwik"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Json"/>
-			<item value="venkatesh"/>
-			<item value="Tests"/>
-			<item value="TestFramework"/>
-			<item value="selenium"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -52,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Training\eclipse-workspace\Satwik selenium"/>
 			<item value="C:\Users\Training\eclipse-workspace\TestFramework"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -65,10 +58,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.zillo.ui"/>
 		</list>
 		<list key="groupId">
+			<item value="com.zillo"/>
 		</list>
 		<list key="artifactId">
+			<item value="ui"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
