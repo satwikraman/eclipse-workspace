@@ -19,6 +19,5 @@ public class Test1 {
 		then().statusCode(200).
 		log().all();
 	}
-	@Test
-	public void 
+	
 }

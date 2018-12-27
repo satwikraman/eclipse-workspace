@@ -23,7 +23,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Innovapath/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
