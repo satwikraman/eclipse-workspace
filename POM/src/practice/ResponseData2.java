@@ -1,4 +1,4 @@
-package satwik;
+package practice;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
